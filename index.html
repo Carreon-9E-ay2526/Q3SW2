@@ -32,19 +32,12 @@
             <button type="button" class="btn btn-dark" onclick="window.location.reload()">Refresh</button>
         </div><br>
         <div class="DiscountButton">
-            <button class="btn btn-success" type="button" onclick=""> Brand & Discount 💰</button>
-            <button class="btn btn-success" type="button" onclick=""> Store Location 🖥</button>
+            <button class="btn btn-success" type="button" onclick="getDiscount()"> Brand & Discount 💰</button>
+                <div id="disdisbut"></div>
+            <button class="btn btn-success" type="button" onclick="getLoction()"> Store Location 🖥</button>
+                <div id="Storeloc"></div>
         </div>
-        
-        <div class="container bg-secondary">
-                <h2 class="text-white">Recommended Brands:</h2>
-                <button class="btn btn-success"> Acer </button>
-                <button class="btn btn-success"> Asus </button>
-                <button class="btn btn-success"> Dell </button>
-                <button class="btn btn-success"> Lenovo </button>
-                <button class="btn btn-success"> MSI  </button>
-                <p>Eligible Discount:</p> <span class="bg-danger"></span>
-        </div>
+
 
     </main>
     <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
