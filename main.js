@@ -10,7 +10,7 @@ function getDiscount(){
             <button class="btn btn-success"> Dell </button>
             <button class="btn btn-success"> Lenovo </button>
             <button class="btn btn-success"> MSI  </button>
-            <p>Eligible Discount:<span class="bg-danger">${disva}</span></p>
+            <p class="text-white">Eligible Discount:<span class="bg-danger" >${disva}</span></p>
         </div>
     `
 }
@@ -20,7 +20,7 @@ function getLoction(){
         <div class="container bg-secondary">
                     <img src="PC Express LOGO.webp" width="200px">
                     <hr>
-                    <p>
+                    <p class="text-white">
                         Quezon City: ROG Concept Store SM North<br>
                         Mandaluyong City: PC Express - SM Megamall<br>
                         Caloocan City: SM Caloocan! We're excited to be located CZ-13 3F SM<br>
